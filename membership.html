@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Membership</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="membership-body">
+    <header>
+      <img src="img/logo.png" alt="Bon's Logo">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">About Us</a></li>
+          <li><a href="product.html">Product</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="membership.html">Membership</a></li>
+          <li><a class="button" href="shop.html">Shop Now</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container member-form">
+      <h1 class="text">BON'S COFFEE AND PASTA</h1>
+      <h2 class="text">Membership Form</h2>
+      <form action="thanks.html" method="PUT">
+        <label for="fname">First name:</label><br>
+        <input type="text" name="fname" id="fname"><br>
+        <br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" name="lname" id="lname"><br>
+        <br>
+        <label for="">Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br>
+        <br>
+        <label for="nationality">Nationality:</label><br>
+        <select id="nationality" name="nationality">
+          <option value="ID">Indonesian</option>
+          <option value="SG">Singaporean</option>
+          <option value="MY" selected>Malaysian</option>
+          <option value="AU">Australian</option>
+        </select><br>
+        <br>
+        <label for="">Language Spoken:</label><br>
+        <input type="checkbox" id="bahasa" name="language" value="bahasa">
+        <label for="bahasa">Bahasa Indonesia</label><br>
+        <input type="checkbox" id="english" name="language" value="english">
+        <label for="english">English</label><br>
+        <input type="checkbox" id="otherLang" name="language" value="other">
+        <label for="otherLang">Other</label><br>
+        <br>
+        <label for="">Bio:</label><br>
+        <textarea name="bio" rows="10" cols="30"></textarea><br>
+        <input id="submit" class="button" type="submit" name="submit" value="Sign Up">
+      </form>
+    </div>
+    <footer>
+      <p>Made with &#128156; in BGR &#169; 2020 Dianclau</p>
+    </footer>
+  </body>
+</html>
